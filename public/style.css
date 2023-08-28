@@ -1,0 +1,92 @@
+body, h1, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #800000;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #800000; 
+}
+
+.content {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333; 
+    text-align: left; 
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-link, .edit-link, .delete-button {
+    background-color: #800000; 
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.detail-link:hover, .edit-link:hover, .delete-button:hover {
+    background-color: #5a0000; 
+}
+
+.create-post-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #800000; 
+    font-weight: bold;
+}
+
+.create-post-link:hover {
+    text-decoration: underline;
+}

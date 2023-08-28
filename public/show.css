@@ -1,0 +1,45 @@
+body, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+}
+
+a {
+    color: #800000;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #5a0000;
+    text-decoration: underline;
+}

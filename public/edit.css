@@ -1,0 +1,65 @@
+/* Reset styles */
+body, h2, p, form, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title styles */
+.edit-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 10px;
+}
+
+/* Post info styles */
+.post-info {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #800000;
+}
+
+/* Form styles */
+.edit-form {
+    margin-top: 20px;
+}
+
+/* Textarea styles */
+.edit-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Submit button styles */
+.submit-button {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #5a0000;
+}
